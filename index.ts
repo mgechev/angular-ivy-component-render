@@ -12,7 +12,8 @@ const graph = {
 
 /**
  * Original implementation from @vikerman
- * Updates in the traversal algorithm.
+ * Updates in the traversal algorithm and
+ * in the contract implementation.
  */
 class RehydrationRenderer implements ObjectOrientedRenderer3 {
   private current: Node | null = null;
