@@ -10,6 +10,10 @@ const graph = {
   parent: import('./parent')
 };
 
+/**
+ * Original implementation from @vikerman
+ * Updates in the traversal algorithm.
+ */
 class RehydrationRenderer implements ObjectOrientedRenderer3 {
   private current: Node | null = null;
   private next: Node | null = null;
