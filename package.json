@@ -1,0 +1,25 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "7.1.0",
+    "@angular/compiler": "./angular-compiler.tgz",
+    "@angular/core": "./angular-core.tgz",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.0.0",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "7.1.0",
+    "parcel": "^1.10.3",
+    "typescript": "^3.2.1"
+  }
+}

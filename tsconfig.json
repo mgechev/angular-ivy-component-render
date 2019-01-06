@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2018",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "files": [
+    "index.ts"
+  ],
+  "angularCompilerOptions": {
+    "enableIvy": "ngtsc"
+  }
+}
