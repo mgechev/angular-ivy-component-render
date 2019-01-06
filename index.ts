@@ -60,6 +60,8 @@ class RehydrationRenderer implements ObjectOrientedRenderer3 {
                 rendererFactory: RehydrationRendererFactory,
                 host: el as any
               });
+              const e = new Event(event);
+              c.dispatchEvent(e);
             })
           }
           listeners.push(listener);
